@@ -9,32 +9,34 @@ import Logo from "public/logo.png";
  * Docs Layout: app/docs/layout.tsx
  */
 export const logo = (
-  <>
-    <Image
-      alt="CEA Logo"
-      src={Logo}
-      sizes="100px"
-      className="hidden w-20 md:w-24 [.uwu_&]:block"
-      aria-label="CEA Logo"
-    />
-  </>
+	<>
+		<Image
+			alt="CEA Logo"
+			src={Logo}
+			sizes="100px"
+			className="hidden w-20 md:w-24 [.uwu_&]:block"
+			aria-label="CEA Logo"
+		/>
+	</>
 );
 export const baseOptions: BaseLayoutProps = {
-  nav: {
-    title: (
-      <>
-        {logo}
-        <span className="font-medium [.uwu_&]:hidden [header_&]:text-[15px]">
-          Create Express App
-        </span>
-      </>
-    ),
-  },
-  links: [
-    {
-      text: "Docs",
-      url: "/docs",
-      active: "nested-url",
-    },
-  ],
+	githubUrl: "https://github.com/fuma-nama/fumadocs",
+
+	nav: {
+		title: (
+			<>
+				{logo}
+				<span className="font-medium [.uwu_&]:hidden [header_&]:text-[15px]">
+					Create Express App
+				</span>
+			</>
+		),
+	},
+	links: [
+		{
+			text: "Docs",
+			url: "/docs",
+			active: "nested-url",
+		},
+	],
 };
