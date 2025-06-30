@@ -6,6 +6,14 @@ import type { ReactNode } from "react";
 const inter = Inter({
 	subsets: ["latin"],
 });
+export const metadata = createMetadata({
+	title: {
+		template: "%s | Fumadocs",
+		default: "Fumadocs",
+	},
+	description: "The Next.js framework for building documentation sites",
+	metadataBase: baseUrl,
+});
 
 export default function Layout({ children }: { children: ReactNode }) {
 	return (

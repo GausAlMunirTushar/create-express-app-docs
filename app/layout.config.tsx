@@ -20,7 +20,7 @@ export const logo = (
 	</>
 );
 export const baseOptions: BaseLayoutProps = {
-	githubUrl: "https://github.com/fuma-nama/fumadocs",
+	githubUrl: "https://github.com/GausAlMunirTushar/create-express-app",
 
 	nav: {
 		title: (
