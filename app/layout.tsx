@@ -6,14 +6,12 @@ import type { ReactNode } from "react";
 const inter = Inter({
 	subsets: ["latin"],
 });
-export const metadata = createMetadata({
-	title: {
-		template: "%s | Fumadocs",
-		default: "Fumadocs",
-	},
-	description: "The Next.js framework for building documentation sites",
-	metadataBase: baseUrl,
-});
+
+export const metadata = {
+	title: "Create Express App - is a CLI tool that simplifies the creation of Express.js applications",
+	description:
+		"Create Express App is a CLI tool that simplifies the creation of Express.js applications. It generates a ready-to-use project structure with pre-configured templates for JavaScript and TypeScript applications. Perfect for developers who want to quickly scaffold an Express.js project and start coding right away.",
+};
 
 export default function Layout({ children }: { children: ReactNode }) {
 	return (
