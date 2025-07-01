@@ -11,7 +11,7 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
 	{
 		name: "Gaus Al Munir Tushar",
-		avatar: "/images/eric-fennis.jpg",
+		avatar: "/team/gaus-al-munir-tushar.jpg",
 		role: "Creator of Create Express App",
 		bio: "Gaus Al Munir Tushar is the creator of CEA and a passionate software engineer. He works at Texon.",
 		github: "https://github.com/GausAlMunirTushar",

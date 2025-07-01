@@ -39,7 +39,7 @@ const Features: React.FC = () => {
 	return (
 		<section className="max-w-7xl mx-auto py-12 px-8">
 			<h2 className="text-3xl font-semibold text-center mb-8">
-				Features
+				Core Features
 			</h2>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 				{features.map((feature) => (
@@ -48,7 +48,7 @@ const Features: React.FC = () => {
 						className=" p-6 rounded-lg text-white shadow-md transition-transform transform hover:scale-105"
 					>
 						<div className="flex justify-center mb-4">
-							<feature.icon className="w-12 h-12 text-green-600" />
+							<feature.icon className="w-12 h-12 text-green-400" />
 						</div>
 						<h3 className="text-xl font-semibold mb-2">
 							{feature.title}

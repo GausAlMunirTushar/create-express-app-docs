@@ -22,7 +22,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 							<img
 								src={member.avatar}
 								alt={member.name}
-								className="h-16 w-16 rounded-full"
+								className="h-16 w-16 rounded-full object-cover"
 							/>
 						</div>
 						<h3 className="text-xl font-semibold mb-2">

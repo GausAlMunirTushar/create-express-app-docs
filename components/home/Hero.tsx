@@ -15,7 +15,7 @@ const Hero = () => {
 					height={100}
 				/>
 			</div>
-			<h1 className="my-4 text-7xl font-extrabold">Create Express App</h1>
+			<h1 className="my-4 text-5xl sm:text-7xl font-extrabold">Create Express App</h1>
 			<div className="flex mt-1 items-center justify-center gap-3">
 				<Link
 					href="/docs"
@@ -34,7 +34,7 @@ const Hero = () => {
 				<DynamicCodeBlock lang="bash" code="npx create-ex-app my-app" />
 			</div>
 			<div className="w-full flex items-center justify-center mt-2">
-				<div className="w-4/12">
+				<div className="w-full sm:w-4/12">
 					<CreateAppAnimation />
 				</div>
 			</div>
