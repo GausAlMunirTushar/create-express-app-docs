@@ -21,37 +21,37 @@ const JoinCommunity = () => {
 			{/* Social Icons */}
 			<div className="flex justify-center gap-4">
 				<Link
-					href="https://x.com/"
+					href="https://x.com/GausAlMunir"
 					target="_blank"
-					className="p-3 rounded-md border border-gray600 transition"
+					className="p-3 rounded-md border  transition"
 				>
 					<FaXTwitter className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://github.com/yourrepo"
+					href="https://github.com/GausAlMunirTushar/create-express-app"
 					target="_blank"
-					className="p-3 rounded-md border border-gray600 transition"
+					className="p-3 rounded-md border transition"
 				>
 					<FaGithub className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://discord.gg/yourserver"
+					href="https://discord.gg/"
 					target="_blank"
-					className="p-3 rounded-md border border-gray600 transition"
+					className="p-3 rounded-md border  transition"
 				>
 					<FaDiscord className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://linkedin.com/in/yourprofile"
+					href="https://linkedin.com/in/GausAlMunirTushar"
 					target="_blank"
-					className="p-3 rounded-md border border-gray600 transition"
+					className="p-3 rounded-md border  transition"
 				>
 					<FaLinkedin className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://youtube.com/yourchannel"
+					href="https://youtube.com/GausAlMunirTushar"
 					target="_blank"
-					className="p-3 rounded-md border border-gray600 transition"
+					className="p-3 rounded-md border transition"
 				>
 					<FaYoutube className="w-5 h-5" />
 				</Link>

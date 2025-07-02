@@ -19,11 +19,12 @@ export const teamMembers: TeamMember[] = [
 		linkedin: "https://linkedin.com/in/GausAlMunirTushar",
 	},
 	{
-		name: "Karsa Rigó",
-		avatar: "/images/karsa-rigo.jpg", // Replace with the actual image path
-		role: "Maintainer of Lucide & Software engineer @sztaki",
-		bio: "Karsa is the maintainer of Lucide and a software engineer at Sztaki.",
-		github: "https://github.com/karsarigo",
-		linkedin: "https://linkedin.com/in/karsarigo",
+		name: "Shoriful Islam Ashiq",
+		avatar: "/team/shoriful-islam-ashiq.jpg",
+		role: "Maintainer of Create Express App",
+		bio: "Md Shoriful Islam Ashiq, enthusiastic about os and software. Currently working as Junior Software Engineer at Code Studio.",
+		github: "https://github.com/mdsiaofficial",
+		x: "https://x.com/mdsiaofficial",
+		linkedin: "https://linkedin.com/in/mdsiaofficial",
 	},
 ];
