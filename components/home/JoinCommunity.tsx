@@ -15,7 +15,7 @@ const JoinCommunity = () => {
 			{/* Heading */}
 			<h2 className="text-2xl font-semibold">Join our community</h2>
 			<p className="text-gray-500 text-lg mb-6">
-				of designers & developers
+				of developers & engineers
 			</p>
 
 			{/* Social Icons */}

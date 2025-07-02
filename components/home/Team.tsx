@@ -16,7 +16,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 				{members.map((member) => (
 					<div
 						key={member.name}
-						className=" p-6 rounded-lg text-white shadow-md"
+						className=" p-6 rounded-lg text-black dark:text-white shadow-md"
 					>
 						<div className="flex justify-center mb-4">
 							<img
@@ -35,7 +35,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 								<Link
 									href={member.github}
 									target="_blank"
-									className="text-white hover:text-gray-400 transition"
+									className="text-black dark:text-white hover:text-gray-400 transition"
 								>
 									<FaGithub className="w-5 h-5" />
 								</Link>
@@ -44,7 +44,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 								<Link
 									href={member.x}
 									target="_blank"
-									className="text-white hover:text-gray-400 transition"
+									className="text-black dark:text-white hover:text-gray-400 transition"
 								>
 									<FaXTwitter className="w-5 h-5" />
 								</Link>
@@ -53,7 +53,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 								<Link
 									href={member.linkedin}
 									target="_blank"
-									className="text-white hover:text-gray-400 transition"
+									className="text-black dark:text-white hover:text-gray-400 transition"
 								>
 									<FaLinkedin className="w-5 h-5" />
 								</Link>

@@ -26,12 +26,4 @@ export const teamMembers: TeamMember[] = [
 		github: "https://github.com/karsarigo",
 		linkedin: "https://linkedin.com/in/karsarigo",
 	},
-	{
-		name: "Jakob Guddas",
-		avatar: "/images/jakob-guddas.jpg", // Replace with the actual image path
-		role: "Maintainer of Lucide & Software engineer @LEGO",
-		bio: "Jakob is a maintainer of Lucide and works as a software engineer at LEGO.",
-		github: "https://github.com/jakobguddas",
-		linkedin: "https://linkedin.com/in/jakobguddas",
-	},
 ];
