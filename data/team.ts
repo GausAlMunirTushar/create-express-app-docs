@@ -13,7 +13,7 @@ export const teamMembers: TeamMember[] = [
 		name: "Gaus Al Munir Tushar",
 		avatar: "/team/gaus-al-munir-tushar.jpg",
 		role: "Creator of Create Express App",
-		bio: "Gaus Al Munir Tushar is the creator of CEA and a passionate software engineer. He works at Texon.",
+		bio: "Gaus Al Munir Tushar is the creator of CEA, NewUI and a passionate Software Engineer. He works at Texon.",
 		github: "https://github.com/GausAlMunirTushar",
 		x: "https://x.com/GausAlMunir",
 		linkedin: "https://linkedin.com/in/GausAlMunirTushar",

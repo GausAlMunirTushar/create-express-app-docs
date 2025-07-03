@@ -22,7 +22,7 @@ const Hero = () => {
 					className="text-fd-foreground font-semibold underline"
 				>
 					<button className="px-4 py-2 bg-gray-800 text-white rounded-lg dark:bg-white dark:text-gray-800 cursor-pointer">
-						Read Guide
+						Read Docs
 					</button>
 				</Link>{" "}
 				<button className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-white rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300 dark:hover:bg-transparent ">

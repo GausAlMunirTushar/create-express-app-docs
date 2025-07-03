@@ -53,7 +53,7 @@ const Features: React.FC = () => {
 						<h3 className="text-xl text-black dark:text-white font-semibold mb-2">
 							{feature.title}
 						</h3>
-						<p className="text-gray-400">{feature.description}</p>
+						<p className="text-gray-500">{feature.description}</p>
 					</div>
 				))}
 			</div>

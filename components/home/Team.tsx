@@ -28,7 +28,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 						<h3 className="text-xl font-semibold mb-2">
 							{member.name}
 						</h3>
-						<p className="text-gray-400 mb-4">{member.role}</p>
+						<p className="text-gray-500 mb-4">{member.role}</p>
 						<p className="text-sm mb-6">{member.bio}</p>
 						<div className="flex justify-center gap-4">
 							{member.github && (
