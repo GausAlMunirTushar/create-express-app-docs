@@ -15,7 +15,9 @@ const Hero = () => {
 					height={100}
 				/>
 			</div>
-			<h1 className="my-4 text-5xl sm:text-7xl font-extrabold">Create Express App</h1>
+			<h1 className="my-4 text-5xl sm:text-7xl font-extrabold">
+				Create Express App
+			</h1>
 			<div className="flex mt-1 items-center justify-center gap-3">
 				<Link
 					href="/docs"
@@ -26,7 +28,7 @@ const Hero = () => {
 					</button>
 				</Link>{" "}
 				<button className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-white rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300 dark:hover:bg-transparent ">
-					See Template
+					See Demo
 				</button>
 			</div>
 
