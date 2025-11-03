@@ -31,9 +31,11 @@ const Hero = () => {
 						Read Docs
 					</button>
 				</Link>{" "}
-				<button className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-white rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300 dark:hover:bg-transparent ">
-					See Demo
-				</button>
+				<Link href="https://github.com/gausalmunirtushar/create-express-app" target="_blank">
+					<button className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-white rounded-lg cursor-pointer hover:bg-gray-200 transition-colors duration-300 dark:hover:bg-transparent ">
+						See Github
+					</button>
+				</Link>
 			</div>
 
 			<div className="w-56 flex  mx-auto my-3">
