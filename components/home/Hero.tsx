@@ -18,6 +18,10 @@ const Hero = () => {
 			<h1 className="my-4 text-5xl sm:text-7xl font-extrabold">
 				Create Express App
 			</h1>
+			{/* Subtitle */}
+			{/* <p className="mt-3 text-lg text-muted-foreground max-w-xl">
+				Scaffold modern Express.js applications in seconds — with TypeScript, Prisma, Sequelize, or Mongoose.
+			</p> */}
 			<div className="flex mt-1 items-center justify-center gap-3">
 				<Link
 					href="/docs"

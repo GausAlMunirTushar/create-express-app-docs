@@ -35,7 +35,7 @@ const JoinCommunity = () => {
 					<FaGithub className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://discord.gg/"
+					href="https://discord.gg/kfMbZHfSx7"
 					target="_blank"
 					className="p-3 rounded-md border  transition"
 				>
