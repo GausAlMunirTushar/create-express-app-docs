@@ -16,7 +16,7 @@ const Team: React.FC<TeamProps> = ({ members }) => {
 				{members.map((member) => (
 					<div
 						key={member.name}
-						className=" p-6 rounded-lg text-black dark:text-white shadow-md"
+						className=" p-6 rounded-lg text-black dark:text-white border"
 					>
 						<div className="flex justify-center mb-4">
 							<img

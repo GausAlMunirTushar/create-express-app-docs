@@ -45,7 +45,7 @@ const Features: React.FC = () => {
 				{features.map((feature) => (
 					<div
 						key={feature.title}
-						className=" p-6 rounded-lg text-white shadow-md transition-transform transform hover:scale-105"
+						className=" p-6 rounded-lg text-white border transition-transform transform hover:scale-105"
 					>
 						<div className="flex justify-center mb-4">
 							<feature.icon className="w-12 h-12 text-green-400" />
