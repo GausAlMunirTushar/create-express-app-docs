@@ -5,7 +5,6 @@
 	"pages": [
 		"index",
 		"installation",
-		"project-structure",
 		"[Changelog](https://github.com/GausAlMunirTushar/create-express-app/releases)"
 	]
 }

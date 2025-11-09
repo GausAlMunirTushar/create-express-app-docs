@@ -42,7 +42,7 @@ const JoinCommunity = () => {
 					<FaDiscord className="w-5 h-5" />
 				</Link>
 				<Link
-					href="https://linkedin.com/in/GausAlMunirTushar"
+					href="https://www.linkedin.com/company/create-express-app"
 					target="_blank"
 					className="p-3 rounded-md border  transition"
 				>
